@@ -120,7 +120,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kafka.version>kafka_2.11</kafka.version>
+        <kafka.version>0.10.1.1</kafka.version>
         <log4j.version>1.2.17</log4j.version>
         <snappy-java.version>1.0.4.1</snappy-java.version>
         <metrics-core.version>2.2.0</metrics-core.version>

@@ -6,7 +6,7 @@
 
     <groupId>nl.techop.kafka</groupId>
     <artifactId>kafka-http-metrics-reporter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <licenses>
@@ -214,6 +214,9 @@
                                 <includes>
                                     <include>*:*</include>
                                 </includes>
+                                <excludes>
+                                    <exclude>org.slf4j</exclude>
+                                </excludes>
                             </artifactSet>
                             <minimizeJar>true</minimizeJar>
                             <filters>
